@@ -103,6 +103,8 @@ public class MainActivity extends AppCompatActivity {
                     transport.connect("smtp.live.com",587,emailSender,senhaSender);
                     transport.sendMessage(message,message.getAllRecipients());
                     transport.close();//apenas de email enviado pelo outlook*/
+
+                    String Teste;
                 }
             } catch (Exception e){
                 e.printStackTrace();
